@@ -907,16 +907,6 @@
   dependencies:
     "@eclipse-che/api" latest
 
-"@eclipse-che/workspace-client@latest":
-  version "0.0.1-1598950097"
-  resolved "https://registry.yarnpkg.com/@eclipse-che/workspace-client/-/workspace-client-0.0.1-1598950097.tgz#4e341849b74ce9f123952ba7edc3be1005c20f68"
-  integrity sha512-z07pA8MrfSAYZzFnTXifKBAG3w6QxUl0eWVonFxU2lucMq+vFdUI6yPxNgj7dVdm0EeQ1BHZqgnkO1eNaTT1fA==
-  dependencies:
-    "@eclipse-che/api" "^7.0.0-beta-4.0"
-    axios "0.19.0"
-    tunnel "0.0.6"
-    websocket "1.0.23"
-
 "@eclipse-che/workspace-telemetry-client@latest":
   version "0.0.1-1593194676"
   resolved "https://registry.yarnpkg.com/@eclipse-che/workspace-telemetry-client/-/workspace-telemetry-client-0.0.1-1593194676.tgz#3d57dff1724c5eec6370dd97de6b71a4b45a97ab"
@@ -2284,6 +2274,17 @@
   integrity sha512-FR0fiU1UY1ds5ZMCUY+iVkkm1Eh4yDHf2ui+cxB3VvYX23DAdUAohPGit+qaMFy2caDd7uWYGRZduKS7dW1FZQ==
   dependencies:
     prop-types "^15.6.1"
+
+"@rnikitenko/workspace-client@latest":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@rnikitenko/workspace-client/-/workspace-client-0.0.1.tgz#7cd67cba7514852e620f911e2c1542680fc581b3"
+  integrity sha512-MECKDiuVnsG3fEANwofsP/CCcKiG4TAQ5v0YXJsU/RNFo7TKh/7gO8WHAaWxu1vRomcAqgLNKsFLLYFpIuEEwQ==
+  dependencies:
+    "@eclipse-che/api" "^7.0.0-beta-4.0"
+    axios "0.20.0"
+    qs "^6.9.4"
+    tunnel "0.0.6"
+    websocket "1.0.23"
 
 "@sindresorhus/df@^1.0.1":
   version "1.0.1"
@@ -4319,6 +4320,13 @@ axios@0.19.0:
   dependencies:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
+
+axios@0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.20.0.tgz#057ba30f04884694993a8cd07fa394cff11c50bd"
+  integrity sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA==
+  dependencies:
+    follow-redirects "^1.10.0"
 
 babel-code-frame@^6.22.0:
   version "6.26.0"
@@ -7714,6 +7722,11 @@ follow-redirects@^1.0.0:
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.12.1.tgz#de54a6205311b93d60398ebc01cf7015682312b6"
   integrity sha512-tmRv0AVuR7ZyouUHLeNSiO6pqulF7dYa3s19c6t+wz9LD69/uSzdMxJ2S91nTI9U3rt/IldxpzMOFejp6f0hjg==
+
+follow-redirects@^1.10.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 font-awesome@^4.7.0:
   version "4.7.0"
@@ -13099,6 +13112,11 @@ qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
+
+qs@^6.9.4:
+  version "6.9.4"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.4.tgz#9090b290d1f91728d3c22e54843ca44aea5ab687"
+  integrity sha512-A1kFqHekCTM7cz0udomYUoYNWjBebHm/5wzU/XqrBRBNWectVH0QIiN+NEcZ0Dte5hvzHwbr8+XQmguPhJ6WdQ==
 
 qs@~6.5.2:
   version "6.5.2"
